@@ -1,0 +1,40 @@
+Name : Yisrael Bar 
+
+Exercise Name: EX1 – Hash Tables. 
+
+Submitted Files:
+GenericHashTable.c	- c file.
+GenericHashTable.h	- header file.
+README 	- this file.
+
+Remarks: 
+The program implements generic hash-table by the following functions:
+	createTable - create the table and set the attributes.
+	freeTable - free the table.
+	add - add data to the table.
+	removeObj - remove objects from the table.
+	search - search data from the table.
+	printTable - print the table.
+	createObject - create objects and set the attributes.
+	freeObject - free the object.
+	isEqual - check equality of two objects.
+	intHashFun - calculate a hash table of integers.
+	strHashFun - calculate a hash table of strings.
+
+There is a private function:
+	duplicateTable - make the table array double size.
+
+
+P.S.:
+    Input:
+    the table support in string(array of char) or int.
+    createTable(size_of_array, data_Type, link_list_Length)
+    dType can be or zero for int or 1 for string.
+
+    Output: 
+    in print table we print first the index like that : [index]
+    and then \t and then value and then -> then \t
+    for example: [0] 20 -> 40 ->.
+
+
+
